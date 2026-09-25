@@ -133,7 +133,7 @@ class Tanah:
         turtle.goto(-500, -150)
         turtle.pendown()
         turtle.begin_fill()
-        turtle.goto(500, -150)
+        turtle.goto(500, -150)        
         turtle.goto(500, -400)
         turtle.goto(-500, -400)
         turtle.goto(-500, -150)
