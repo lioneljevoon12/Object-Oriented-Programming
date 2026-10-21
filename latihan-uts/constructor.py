@@ -17,3 +17,11 @@ print("Character health is", nyawa)  #output: Character health is 100
 print("Character name is", nando.name)  #output: Character name is Nando
 print("Character health is", nando.health)  #output: Character health is 100
 
+#parameter default pada constructor
+class GameCharacter2:
+    def __init__(self, name, health=100):
+        self.name = name
+        self.health = health
+
+denis
+
